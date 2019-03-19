@@ -152,7 +152,7 @@ If access to a route is not allowed and then you make a request to that route th
 You can initiate a client by giving the client_id and client_secret params
 ```php
 <?php
-  new Playlyfe(
+  new Playoff(
     array(
         "client_id" => "Your client id",
         "client_secret" => "Your client secret",
