@@ -1,7 +1,7 @@
 ![Playoff PHP SDK](https://dev.playoffgamification.io/images/assets/pl-php-sdk.png "Playoff PHP SDK")
 
-================
-This is the official OAuth 2.0 PHP client SDK for the Playlyfe API.
+================  
+This is the official OAuth 2.0 PHP client SDK for the Playoff API.
 It supports the `client_credentials` and `authorization code` OAuth 2.0 flows.
 For a complete API Reference checkout [Playoff Developers](https://dev.playoffgamification.io/docs/api) for more information.
 
@@ -101,7 +101,7 @@ In the client page select yes for the first question and no for the second
       "client_secret" => "Your client secret",
       "type" => 'code',
       "version" => 'v2',
-      "redirect_uri" => 'http://example.playoff.cc/auth.php'
+      "redirect_uri" => 'http://example.playoffgamification.io/auth.php'
     )
   );
 ?>
