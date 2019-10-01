@@ -4,10 +4,10 @@ ini_set('display_errors', 'on');
 
 if (array_key_exists('metric', $_GET)) {
   $metric = $_GET['metric'];
-  $url = "https://api.playoff.cc/v2/design/versions/latest/metrics/$metric?player_id=student1";
+  $url = "https://api.playoffgamification.io/v2/design/versions/latest/metrics/$metric?player_id=student1";
   if (array_key_exists('item', $_GET)) {
     $item = $_GET['item'];
-    $url = "https://api.playoff.cc/v2/design/versions/latest/metrics/$metric?player_id=student1&item=$item";
+    $url = "https://api.playoffgamification.io/v2/design/versions/latest/metrics/$metric?player_id=student1&item=$item";
   }
 
   $ac = $_SESSION['access_token']['access_token'];

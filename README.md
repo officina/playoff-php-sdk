@@ -59,7 +59,7 @@ Add this to your composer.json file
 ```json
 {
   "require": {
-      "playoff/playoff": "0.8.0"
+      "playoff/playoff": "1.0.0"
   }
 }
 ```
@@ -70,7 +70,7 @@ Using
 
 ## 1. Client Credentials Flow
 In the client page select Yes for both the first and second questions
-![client](https://cloud.githubusercontent.com/assets/1687946/7930229/2c2f14fe-0924-11e5-8c3b-5ba0c10f066f.png)
+![client](https://dev.playoffgamification.io/images/assets/client.png)
 ```php
 <?php
   require __DIR__ . '/vendor/autoload.php';
@@ -92,7 +92,7 @@ In the client page select Yes for both the first and second questions
 ```
 ## 2. Authorization Code Flow
 In the client page select yes for the first question and no for the second
-![auth](https://cloud.githubusercontent.com/assets/1687946/7930231/2c31c1fe-0924-11e5-8cb5-73ca0a002bcb.png)
+![auth](https://dev.playoffgamification.io/images/assets/auth.png)
 ```php
 <?php
   new Playoff(
@@ -108,7 +108,7 @@ In the client page select yes for the first question and no for the second
 ```
 ## 3. Custom Login Flow using JWT(JSON Web Token)
 In the client page select no for the first question and yes for the second
-![jwt](https://cloud.githubusercontent.com/assets/1687946/7930230/2c2f2caa-0924-11e5-8dcf-aed914a9dd58.png)
+![jwt](https://dev.playoffgamification.io/images/assets/jwt.png)
 ```php
 <?php
 $token = Playoff::createJWT(array(
@@ -124,7 +124,7 @@ echo $token;
 This is used to create jwt token which can be created when your user is authenticated. This token can then be sent to the frontend and or stored in your session. With this token the user can directly send requests to the Playoff API as the player.
 
 # Client Scopes
-![Client](https://cloud.githubusercontent.com/assets/1687946/9349193/e00fe91c-465f-11e5-8094-6e03c64a662c.png)
+![Client](https://dev.playoffgamification.io/images/assets/client-scopes.png)
 
 Your client has certain access control restrictions. There are 3 kind of resources in the Playoff REST API they are,
 
@@ -273,7 +273,7 @@ License
 =======
 Playoff PHP SDK
 http://dev.playoffgamification.io/  
-Copyright(c) 2016-2017, Officina S.r.l., support@playoffgamification.io  
+Copyright(c) 2019, Officina S.r.l., support@playoffgamification.io  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
